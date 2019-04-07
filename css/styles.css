@@ -1,7 +1,6 @@
 /*----Universal----*/
   * {
       box-sizing: border-box;
-      /*==============
       margin: 0;
       padding: 0;
       border: 0;
@@ -9,7 +8,6 @@
       font-size: 100%;
       vertical-align: baseline;
       background: transparent;
-    unsure what this does  ==============*/
   }
 
 /*============================
@@ -27,6 +25,10 @@ ul {
 h2,
 h3 {
     font-family: 'Inconsolata', sans-sans-serif;
+}
+
+footer {
+  margin-bottom: 0;
 }
 
 
@@ -54,7 +56,7 @@ h3 {
 
 .main-nav a {
   display: block;
-  border: 2px solid white;
+  border: 6px solid white;
   background-color: white;
   color: black;
   text-decoration: none;
@@ -65,8 +67,8 @@ h3 {
   list-style-type: none;
   text-align: center;
   background-color: beige;
-  margin-bottom: 1em;
-  margin-top: 8px;
+  margin: 0.5em;
+  padding: 6px;
 }
 
 
@@ -74,8 +76,6 @@ h3 {
    align-content: center;
    width: 100%;
    height: 80%;
-   margin-right: 0;
-   margin-left: 0;
    margin: 20px 0;
 }
 
@@ -88,7 +88,22 @@ h3 {
 
 .wrapper p,
 .wrapper h2 {
-  margin: 1.5em;
+  margin: 1em;
+}
+
+.wrapper h2 {
+  font-size: 20px;
+}
+
+.wrapper a,
+footer a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+a:hover {
+  color: #3F74BF;
 }
 
 .wrapper p {
@@ -110,6 +125,27 @@ h3 {
 #contact-p {
   text-align: center;
   font-size: 14px;
+}
+
+footer {
+  margin-top: 5.5em;
+  font-size: 12px;
+}
+#footer-h {
+  float: left;
+  margin-left: 8px;
+}
+
+#footer-ul {
+  float: right;
+}
+
+#footer-ul li{
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-right: 8px;
 }
 
 
