@@ -6,6 +6,7 @@
       border: 0;
       outline: 0;
       font-size: 100%;
+      overflow-x: hidden;
       vertical-align: baseline;
       background: transparent;
   }
@@ -154,9 +155,39 @@ footer {
 ==============================*/
 @media (min-width: 768px) {
 
-}
+  .main-nav li {
+    display: inline-block;
+  }
 
+  #header-p {
+    font-size: 20px;
+    margin: 2em 0;
+  }
 
+  .wrapper img,
+  .wrapper p,
+  .wrapper h2 {
+    width: 100%;
+  }
+
+  .wrapper div {
+    display: inline-block;
+    width: 48%;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .marketing-page {
+  float: right;
+ }
+
+ .spot-map {
+   float: right;
+ }
+
+ .calculator {
+   float: right;
+ }
 
 @media (min-width: 1024) {
 
