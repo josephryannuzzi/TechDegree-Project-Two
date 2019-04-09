@@ -57,8 +57,7 @@ footer {
 
 .main-nav a {
   display: block;
-  border: 6px solid white;
-  background-color: white;
+  border: 6px;
   color: black;
   text-decoration: none;
 }
@@ -72,6 +71,9 @@ footer {
   padding: 6px;
 }
 
+#portfolio {
+  text-align: center;
+}
 
 .wrapper img {
    align-content: center;
@@ -155,26 +157,44 @@ footer {
 ==============================*/
 @media (min-width: 768px) {
 
+  .main-nav ul {
+    background-color: beige;
+  }
+
   .main-nav li {
     display: inline-block;
   }
 
-  #header-p {
-    font-size: 20px;
-    margin: 2em 0;
+  .profile-image {
+    display: inline-block;
+    width: 35%;
+    float: right;
   }
 
-  .wrapper img,
-  .wrapper p,
-  .wrapper h2 {
+    #header-p {
+    display: inline-block;
+    font-size: 120%;
+    width: 65%;
+    margin-top: 1em;
+  }
+
+  .header-img-p {
     width: 100%;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    display: inline-block;
+  }
+
+  #portfolio {
+    margin: 1em 0;
+    font-size: 20px;
   }
 
   .wrapper div {
     display: inline-block;
     width: 48%;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: .4em;
+    margin-right: .4em;
   }
 
   .marketing-page {
@@ -189,6 +209,24 @@ footer {
    float: right;
  }
 
-@media (min-width: 1024) {
+ .contactall,
+ footer {
+   background-color: beige;
+ }
+
+footer {
+  margin-top: 0;
+  padding-top: 4em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper div {
+    display: inline-block;
+    width: 32%;
+    margin-left: .4em;
+    margin-right: .4em;
+  }
+
 
 }
