@@ -211,19 +211,8 @@ footer {
     width: 48%;
     margin-left: .4em;
     margin-right: .4em;
+    float: right;
   }
-
-  .marketing-page {
-  float: right;
- }
-
- .spot-map {
-   float: right;
- }
-
- .calculator {
-   float: right;
- }
 
  .contactall,
  footer {
@@ -237,12 +226,9 @@ footer {
 }
 
 @media (min-width: 1024px) {
+
   .wrapper div {
     display: inline-block;
-    width: 31.7%;
-    margin-left: .4em;
-    margin-right: .4em;
+    width: 31.8%;
   }
-
-
 }
