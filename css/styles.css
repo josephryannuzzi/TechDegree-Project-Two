@@ -81,6 +81,28 @@ footer {
   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1600 - 320)));
 }
 
+.skill-div {
+  text-align: center;
+  display: block;
+  border-bottom: 2px solid beige;
+}
+
+#skill {
+  margin-top: 1em;
+  margin-bottom: .5em;
+  font-size: calc(22px + (30 - 22) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.skill-nav li{
+  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1600 - 320)));
+  margin: .5em 0;
+  text-decoration: auto;
+}
+
+.skill-nav ul{
+  margin-bottom: 1em;
+}
+
 #portfolio {
   text-align: center;
 }
@@ -105,7 +127,6 @@ footer {
 }
 
 .wrapper h2 {
-  /*font-size: 20px;*/
   font-size: calc(20px + (28 - 20) * ((100vw - 320px) / (1600 - 320)));
 }
 
