@@ -173,6 +173,10 @@ a:hover {
   text-decoration: none;
 }
 
+.contact a:hover {
+  color:  #3F74BF;
+}
+
 footer {
   font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (1600 - 320)));
   padding-top: 2em;
