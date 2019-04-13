@@ -11,11 +11,30 @@
       vertical-align: baseline;
   }
 
+/*===============================
+            clearfix
+===============================
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
 /*============================
         Base styles
 ===============================*/
-.header-p {
+.header-pone {
+  display: block;
   font-size: calc(16px + (32 - 16) * ((100vw - 320px) / (1600 - 320)));
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.header-ptwo {
+  display: none;
+  font-size: calc(16px + (32 - 16) * ((100vw - 320px) / (1600 - 320)));
+  margin-bottom: 1em;
 }
 
 .portfolio {
@@ -47,7 +66,6 @@ footer {
 ================================*/
 .main-header {
   background-color: beige;
-  margin-bottom: 1em;
   max-width: 100%;
   padding-bottom: 1em;
   text-align: center;
@@ -187,8 +205,17 @@ footer {
   margin-left: 8px;
 }
 
-.footer-ul {
+.footer-ul{
+  display: none;
+}
+
+.top {
   float: right;
+}
+
+/*================
+.footer-ul {
+   float: right;
 }
 
 .footer-ul li{
@@ -198,7 +225,7 @@ footer {
   padding-right: 4px;
   text-decoration: none;
 }
-
+============*/
 
 /*=============================
         Media Queries
@@ -214,12 +241,13 @@ footer {
   }
 
   .profile-image {
+    clear: none;
     float: right;
     margin-right: 2em;
     width: 30%;
   }
 
-  .header-p {
+  .header-p2 {
     width: 65%;
   }
 
@@ -242,13 +270,61 @@ footer {
     width: 48%;
   }
 
+.top {
+  visibility: hidden;
+}
+
  .contactall,
  footer {
    background-color: beige;
  }
+
+ .footer-ul {
+   display: contents;
+ }
+
+ .footer-ul li {
+   float: right;
+ }
+
+ .footer-ul li{
+   display: inline-block;
+   margin-right: 8px;
+   padding-left: 4px;
+   padding-right: 4px;
+   text-decoration: none;
+ }
 }
 
 @media (min-width: 1024px) {
+
+  .header-top {
+    width: 100%;
+  }
+
+  .name {
+    float:left;
+    overflow: auto;
+    padding-left: 1em;
+  }
+
+  .main-nav {
+    float: right;
+    padding-top: 1.5em;
+    vertical-align: bottom;
+  }
+
+  .header-pone {
+    display: none;
+  }
+
+  .header-ptwo {
+    display: inline-block;
+    margin-left: 1em;
+    margin-top: 1em;
+    text-align: left;
+    width: 60%;
+  }
 
   .skill-img {
     padding-bottom: 1.5em;

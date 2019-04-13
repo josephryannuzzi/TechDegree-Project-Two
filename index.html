@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet"
-          href="css/styles.css">
+          href="css/normalize.css"/>
     <link rel="stylesheet"
-          href="css/normalize.css">
+          href="css/styles.css"/>
     <link rel="stylesheet"
           type="text/css"
           href="https://fonts.googleapis.com/css?family=Ubuntu"/>
@@ -17,24 +17,33 @@
   </head>
 
   <body>
-    <header class="main-header">
-        <h1 class="name">Joseph Yannuzzi</h1>
-        <nav class="main-nav">
-          <ul>
-            <li><a href="#"><strong>Home</strong></a></li>
-            <li><a href="#skill"><strong>Skills</strong></a></li>
-            <li><a href="#portfolio"><strong>Portfolio</strong></a></li>
-            <li><a href="#contactall"><strong>Contact</strong></a></li>
-          </ul>
-        </nav>
+    <div class= "header-top clearfix">
+      <header class="main-header">
+          <h1 class="name">Joseph Yannuzzi</h1>
+          <nav class="main-nav">
+            <ul>
+              <li><a href="#"><strong>Home</strong></a></li>
+              <li><a href="#skill"><strong>Skills</strong></a></li>
+              <li><a href="#portfolio"><strong>Portfolio</strong></a></li>
+              <li><a href="#contactall"><strong>Contact</strong></a></li>
+            </ul>
+          </nav>
+
       <div class="header-img-p">
           <img class="profile-image" src="img/Vector_Delivery_Man.png" alt="Profile Avatar Icon"> <!-- https://www.vecteezy.com/vector-art/<116684-vector-delivery-man</116684-vector-delivery-man> -->
-            <p id="header-p" class="header-p">Hi! I'm a front end developer who<br>
-               loves responsive design and css. I am<br>
-               currently working on a degree in front-end<br>
-               web devlopment at treehouse and am<br>
-               excited to put all my skills to use!</p>
+          <p id="header-pone" class="header-pone">Hi! I'm a front end developer who<br>
+             loves responsive design and css. I am<br>
+             currently working on a degree in front-end<br>
+             web devlopment at treehouse and am<br>
+             excited to put all my skills to use!</p>
+
+          <p id="header-ptwo" class="header-ptwo">Hi! I'm a front end developer who
+             loves responsive<br> design and css. I am
+             currently working on a degree in<br>front-end
+             web devlopment at treehouse and am <br>
+             excited to put all my skills to use!</p>
       </div>
+    </div>
     </header>
 
     <main>
@@ -107,11 +116,13 @@
 
     <footer>
       <h4 id="footer-h" class="footer-h"><a href="#">Joseph Yannuzzi</a></h4>
-        <ul id="footer-ul" class="footer-ul">
-          <li><a href="#">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contactall">Contact</a></li>
-        </ul>
+        <nav class="header-exp">
+          <ul id="footer-ul" class="footer-ul">
+            <li><li><a href="#contactall">Contact</a></li><li><a href="#portfolio">Portfolio</a></li><li><a href="#skill">Skills</li><li><a href="#">Home</a></li>
+          </ul>
+      </nav>
+
+      <span class="top"><a href="#"><strong>Back To Top</strong></a></span>
     </footer>
   </body>
 </html>
