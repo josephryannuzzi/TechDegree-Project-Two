@@ -311,7 +311,14 @@ footer {
   .main-nav {
     float: right;
     padding-top: 1.5em;
-    vertical-align: bottom;
+  }
+
+  .main-nav ul{
+    margin-right: 1.5em;
+  }
+
+  .profile-image {
+    width: 35%;
   }
 
   .header-pone {
@@ -320,7 +327,7 @@ footer {
 
   .header-ptwo {
     display: inline-block;
-    margin-left: 1em;
+    margin-left: .5em;
     margin-top: 1em;
     text-align: left;
     width: 60%;
