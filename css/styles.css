@@ -113,7 +113,7 @@ footer {
 
 .wrapper img {
    align-content: center;
-   border-radius: 0.5em;
+   border-radius: 1em;
    height: 80%;
    margin: 20px 0;
    width: 100%;
@@ -254,6 +254,7 @@ footer {
 
   .profile-image {
     float: right;
+    margin-right: 1.3em; 
     width: 40%
   }
 
@@ -344,7 +345,7 @@ footer {
 
   .header-ptwo {
     display: inline-block;
-    margin-left: .5em;
+    margin-left: 1.5em;
     margin-top: 1em;
     text-align: left;
     width: 60%;
