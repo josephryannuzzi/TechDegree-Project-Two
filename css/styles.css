@@ -1,39 +1,29 @@
 /*----Universal----*/
-  * {
-      background: transparent;
-      border: 0;
-      box-sizing: border-box;
-      font-size: 100%;
-      margin: 0;
-      outline: 0;
-      overflow-x: hidden;
-      padding: 0;
-      vertical-align: baseline;
-  }
+
 
 /*===============================
             clearfix
-===============================
+===============================*/
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-} */
 
 /*============================
         Base styles
 ===============================*/
+
+.header {
+  background-color: beige;
+}
+
 .header-pone {
   display: block;
-  font-size: calc(16px + (32 - 16) * ((100vw - 320px) / (1600 - 320)));
-  margin-bottom: 1em;
+  font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (1400 - 320)));
+  margin: 1em 0;
   text-align: center;
 }
 
 .header-ptwo {
   display: none;
-  font-size: calc(16px + (32 - 16) * ((100vw - 320px) / (1600 - 320)));
+  font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (1600 - 320)));
   margin-bottom: 1em;
 }
 
@@ -72,7 +62,7 @@ footer {
 }
 
 .name {
-  font-size: calc(32px + (50 - 32) * ((100vw - 320px) / (1600 - 320))); /*  fluid font equation source https://css-tricks.com/books/volume-i/scale-typography-screen-size/*/
+  font-size: calc(32px + (50 - 32) * ((100vw - 320px) / (1600 - 320)));   /*fluid font equation source https://css-tricks.com/books/volume-i/scale-typography-screen-size/*/
   margin-bottom: 0;
   margin-top: 0;
   padding-top: 16px;
@@ -92,7 +82,7 @@ footer {
 .main-nav li {
   background-color: beige;
   display: block;
-  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1600 - 320)));
+  font-size: calc(14px + (22 - 14) * ((100vw - 320px) / (1600 - 320)));
   list-style-type: none;
   margin: 0.5em;
   padding: 6px;
@@ -230,7 +220,7 @@ footer {
 /*=============================
         Media Queries
 ==============================*/
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
   .main-nav ul {
     background-color: beige;
@@ -241,10 +231,9 @@ footer {
   }
 
   .profile-image {
-    clear: none;
     float: right;
     margin-right: 2em;
-    width: 30%;
+    width: 40%
   }
 
   .header-p2 {
@@ -252,10 +241,7 @@ footer {
   }
 
   .header-img-p {
-    display: inline-block;
-    margin-bottom: 2em;
-    margin-top: 1.5em;
-    width: 100%;
+    text-align: left;
   }
 
   .portfolio {
@@ -268,6 +254,12 @@ footer {
     margin-left: .4em;
     margin-right: .4em;
     width: 48%;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
   }
 
 .top {
@@ -296,7 +288,7 @@ footer {
  }
 }
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 
   .header-top {
     width: 100%;
