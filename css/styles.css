@@ -113,6 +113,7 @@ footer {
 
 .wrapper img {
    align-content: center;
+   border-radius: 0.5em;
    height: 80%;
    margin: 20px 0;
    width: 100%;
