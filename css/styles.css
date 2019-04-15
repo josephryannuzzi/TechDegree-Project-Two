@@ -111,7 +111,6 @@ footer {
 }
 
 .skill-img {
-  border-bottom: 1px solid black;
   padding-bottom: 1.5em;
 }
 
@@ -209,6 +208,7 @@ footer {
 .top {
   background-color: beige;
   float: right;
+  padding-right: 1em;
 }
 
 /*================
