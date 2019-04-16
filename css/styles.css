@@ -12,6 +12,8 @@
 
 /*==========================Gradient=======================*/
 .header {
+  /*=======================================
+  ================GRADIENT CODE=============*/
   background: rgba(245,245,220,1);
   background: -moz-linear-gradient(left, rgba(245,245,220,1) 0%, rgba(245,245,220,1) 41%, rgba(220,220,198,1) 53%, rgba(196,196,176,1) 72%, rgba(196,196,176,1) 87%, rgba(171,171,154,1) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(245,245,220,1)), color-stop(41%, rgba(245,245,220,1)), color-stop(53%, rgba(220,220,198,1)), color-stop(72%, rgba(196,196,176,1)), color-stop(87%, rgba(196,196,176,1)), color-stop(100%, rgba(171,171,154,1)));
